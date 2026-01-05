@@ -21,8 +21,7 @@ const TitleForm = () => {
     setIsLoading(true);
 
     try {
-      // Replace this URL with your n8n webhook URL
-      const webhookUrl = 'YOUR_N8N_WEBHOOK_URL';
+      const webhookUrl = 'https://lukinist.app.n8n.cloud/webhook-test/0086d71b-a264-4042-afde-b8ae958f08bc';
       
       const response = await fetch(webhookUrl, {
         method: 'POST',
